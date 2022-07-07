@@ -58,20 +58,18 @@ import ReactDOM from "react-dom/client"
 //     </div>)
 // console.log(element)
 
-const navbar = (
-    <nav>
-        <h1>Levi's Scrumptious Chocolate!</h1>
-        <ul>
-            <li>Pricing</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
-)
+// const navbar = (
+//     <nav>
+//         <h1>Levi's Scrumptious Chocolate!</h1>
+//         <ul>
+//             <li>Pricing</li>
+//             <li>About</li>
+//             <li>Contact</li>
+//         </ul>
+//     </nav>
+// )
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-    navbar
-)
+
 
 // ReactDOM.createRoot(document.getElementById("root")).render(
 //             <div>
@@ -82,4 +80,21 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // ---------------------------------------------------
 // 9.
 
-// ReactDOM.append()
+const samplePage = (
+    <nav>
+        <h1>My Little Sample Page!</h1>
+        <h3>Coded By: Levi!</h3>
+        <p> tigers are really cool</p>
+        <p>Panther is really cute and sweet</p>
+    </nav>
+)
+
+// document.getElementById("root").append(
+//     JSON.stringify(samplePage)
+// )
+
+// fixed to...
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+    samplePage
+)
