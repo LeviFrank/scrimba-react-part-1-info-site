@@ -80,21 +80,42 @@ import ReactDOM from "react-dom/client"
 // ---------------------------------------------------
 // 9.
 
-const samplePage = (
+// const samplePage = (
+//     <nav>
+//         <h1>My Little Sample Page!</h1>
+//         <h3>Coded By: Levi!</h3>
+//         <p> tigers are really cool</p>
+//         <p>Panther is really cute and sweet</p>
+//     </nav>
+// )
+
+// // document.getElementById("root").append(
+// //     JSON.stringify(samplePage)
+// // )
+
+// // fixed to...
+
+// ReactDOM.createRoot(document.getElementById("root")).render(
+//     samplePage
+// )
+
+// ----------------------------------------------------
+// 10.
+
+const factPage = (
     <nav>
-        <h1>My Little Sample Page!</h1>
-        <h3>Coded By: Levi!</h3>
-        <p> tigers are really cool</p>
-        <p>Panther is really cute and sweet</p>
+        <img src="./logo.svg" alt="" />
+        <h1>Fun Facts About React</h1>
+        <ul>
+            <li>Was First Released in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100k stars on Github</li>
+            <li>Is maintained By FaceBook</li>
+            <li>Powers Thousands of enterprise apps, including mobile apps</li>
+        </ul>
     </nav>
 )
 
-// document.getElementById("root").append(
-//     JSON.stringify(samplePage)
-// )
-
-// fixed to...
-
 ReactDOM.createRoot(document.getElementById("root")).render(
-    samplePage
+    factPage
 )
