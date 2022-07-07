@@ -45,3 +45,41 @@ import ReactDOM from "react-dom/client"
 
 // --------------------------------------------------
 // 8.
+
+// const h1 = document.createElement("h1")
+// h1.textContent = "Hello world"
+// h1.className = "header"
+// console.log(h1)
+
+// const element = (
+//     <div> 
+//         <h1 className="header">This is JSX</h1>
+//         <p>blahblahblah</p> 
+//     </div>)
+// console.log(element)
+
+const navbar = (
+    <nav>
+        <h1>Levi's Scrumptious Chocolate!</h1>
+        <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+    navbar
+)
+
+// ReactDOM.createRoot(document.getElementById("root")).render(
+//             <div>
+//                 <Blah />
+//             </div>
+// )
+
+// ---------------------------------------------------
+// 9.
+
+// ReactDOM.append()
