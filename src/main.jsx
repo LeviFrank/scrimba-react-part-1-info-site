@@ -1,6 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import LogoSvg from "./logo.svg"
+import Header from "./Header.jsx"
+import Footer from "./Footer.jsx"
+import MainContent from "./MainContent.jsx"
 
 // const samePage = (
 //     <nav>
@@ -39,20 +41,34 @@ import LogoSvg from "./logo.svg"
 // )
 
 
-    
-// 13.
+/**
+Mini Challenge:
+Move the `header` element from Page into 
+its own component called "Header"
+*/
+
+// function Header() {
+//     return (
+//         <header>
+//             <nav>
+//                 <img src={ReactLogo} width="402px" />
+//             </nav>
+//         </header>
+//     )
+// }
 
 function Page() {
     return (
-    <ol>
-        <li>Make An App</li>
-        <li>I Can Be Pround To Build An App And Be An Advanced Coder</li>
-        <li>MAKE SOME $!!!</li>
-        <li>Cuz My Dad Wants Me To</li>
-    </ol>
+        <div>
+            <Header/>
+            <MainContent/>
+            <Footer/>
+        </div>
     )
 }
 
+
+
 ReactDOM.createRoot(document.getElementById("root")).render(
-    <Page/>
+    <Page/>    
 )
