@@ -4,8 +4,8 @@ import ReactLogo from "./react-logo.png"
 function Header() {
     return (
         <header>
-            <nav>
-                <img src={ReactLogo} width="400px" />
+            <nav className="nav">
+                <img src={ReactLogo} className="nav-logo"/>
                 <ul className="nav-items">
                     <li>Pricing</li>
                     <li>About</li>
