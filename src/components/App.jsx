@@ -1,12 +1,13 @@
 import React from "react"
 import NavBar from "./NavBar.jsx"
 import "./styles.css"
+import Main from "./Main.jsx"
 
 function App() {
     return (
-        <div>
-            <h1>This h1 is from index.jsx</h1>
+        <div className="appDiv">
             <NavBar/>
+            <Main/>
         </div>
     )
 }

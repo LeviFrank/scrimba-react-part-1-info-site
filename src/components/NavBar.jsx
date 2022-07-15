@@ -1,10 +1,13 @@
 import React from "react";
-// import ReactDOM from "react-dom/client";
+import reactLogo from "../images/react-logo.jpeg";
 
 function NavBar() { 
     return (
-        <nav>
-            <h2>This h1 is from Navbar.jsx</h2>
+        <nav className="NavBar">
+            <img src={reactLogo}/>
+            <h3 className="navLogoText">ReactFacts</h3>
+            <h4 className="navTitle">React Course - Project 1</h4>
+            
         </nav>
     )
 }
