@@ -1,69 +1,96 @@
-* {
-  box-sizing: border-box;
+html {
+  background-color: #23252C;
 }
 
-body {
-  margin: 0;
-  font-family: Inter, Helvetica, sans-serif;
-  background-color: #282D35
+.Card {
+  position: absolute;
+  height: 795px;
+  width: 317px;
+  left: 530px;
+  top: 70px;
+
+  background: #1A1B21;
 }
 
-.NavBar {
-  display: flex;
-  align-items: center;
-  background-color: #21222A;
-  height: 90px;
-  padding: 30px 25px;
-} 
-
-.navLogoText, .navTitle {
-  margin: 0;
-}
-
-.navLogoText {
-  margin-right: auto;
-  color: #61DAFB;
-  font-weight: 700;
-  font-size: 23px;
-}
-
-.navTitle {
-  color: #DEEBF8;
-  font-weight: 600;
-}
-
-nav > img {
-  height: 30px;
-  margin-right: 7px;
-}
-
-h1 {
+.Name {
   color: white;
-  margin-left: 25px;
+  margin-left: 60px;
 }
 
-ul {
-  font-size: 17px;
-  line-height: 40px;
-  color: whitesmoke;
-  margin-left: 28px;
-}
-
-main {
-  padding: 57px 27px;
+.h1About {
+  font-size: x-large;
   color: white;
-  background-image: url(../images/halfReactLogo.png);
-  background-repeat: no-repeat;
-  background-position: right 75%;
+  top: 100px;
+  margin-left: 15px;
 }
 
-.mainTitle {
-  margin: 0;
-  font-size: 46px;
-  letter-spacing: -0.03em;
+.aboutParagraph {
+  font-size: medium;
+  color: white;
+  margin-left: 15px;
 }
 
-.mainFacts > li::marker {
-  color: #61DAFB;
-  font-size: 1.4rem;
+.h1Interests {
+  font-size: x-large;
+  color: white;
+  margin-left: 15px;
+}
+
+.interestsParagraph {
+  font-size: medium;
+  color: white;
+  margin-left: 15px;
+}
+
+.footer {
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.twitterLogo {
+  position: absolute;
+  margin-top: 19px;
+  margin-left: 85px;
+}
+
+.facebookLogo {
+  position: absolute;
+  margin-top: 19px;
+  margin-left: 135px;
+}
+
+.instagramLogo {
+  position: absolute;
+  margin-top: 19px;
+  margin-left: 185px;
+}
+
+.linkedinLogo {
+  position: absolute;
+  margin-top: 19px;
+  margin-left: 235px;
+}
+
+.githubLogo {
+  position: absolute;
+  margin-top: 19px;
+  margin-left: 45px;
+}
+
+.classOfPerson {
+  color: #F3BF99;
+  margin-left: 75px;
+}
+
+.personWebsite {
+  color: white;
+  margin-left: 100px;
+}
+
+.emailThemButton {
+  margin-left: 30px;
 }
